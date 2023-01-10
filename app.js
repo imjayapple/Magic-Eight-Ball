@@ -39,3 +39,16 @@ switch (randomNumber) {
   Default:
     console.log('Invalid entry');
 }
+
+//Run some tests
+
+if (randomNumber == 0) {
+  eightBall = 'It is decidedly so'
+} else if (randomNumber == 1) {
+   eightBall = 'Reply hazy try again'
+};
+
+
+
+console.log(`${userName}, ${userQuestion}`);
+console.log(eightBall);
